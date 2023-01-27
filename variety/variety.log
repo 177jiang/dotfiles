@@ -1,0 +1,496 @@
+INFO: 2023-01-27 15:03:58,525: main() 'Using profile folder /home/jy/.config/variety/'
+INFO: 2023-01-27 15:03:58,529: perform_upgrade() 'Last run version was 0.8.9 or earlier, current version is 0.8.9'
+INFO: 2023-01-27 15:03:58,720: process_command() 'Received command: []'
+INFO: 2023-01-27 15:03:58,722: start() 'Using data_path /usr/share/variety'
+INFO: 2023-01-27 15:03:58,722: load() 'Jumble loading'
+INFO: 2023-01-27 15:03:58,722: _walk_modules() 'Jumble loading module in __init__ from /usr/lib/python3.10/site-packages/variety/plugins/builtin/__init__.py'
+INFO: 2023-01-27 15:03:58,723: _walk_modules() 'Jumble loading module in __init__ from /usr/lib/python3.10/site-packages/variety/plugins/builtin/quotes/__init__.py'
+INFO: 2023-01-27 15:03:58,724: _walk_modules() 'Jumble loading module in GoodreadsSource from /usr/lib/python3.10/site-packages/variety/plugins/builtin/quotes/GoodreadsSource.py'
+INFO: 2023-01-27 15:03:58,731: load() 'Jumble found plugin class: <class 'GoodreadsSource.GoodreadsSource'>: {'name': 'Goodreads', 'description': 'Fetches quotes from Goodreads.com', 'author': 'Peter Levi', 'version': '0.1'}'
+INFO: 2023-01-27 15:03:58,732: _walk_modules() 'Jumble loading module in FortuneSource from /usr/lib/python3.10/site-packages/variety/plugins/builtin/quotes/FortuneSource.py'
+INFO: 2023-01-27 15:03:58,733: load() 'Jumble found plugin class: <class 'FortuneSource.FortuneSource'>: {'name': 'UNIX fortune program', 'description': 'Displays quotes using the UNIX fortune program. You may want to install additional fortune packs, e.g. fortunes-bofh-excuses.', 'author': 'Dan Jones', 'version': '0.1'}'
+INFO: 2023-01-27 15:03:58,733: _walk_modules() 'Jumble loading module in LocalFilesSource from /usr/lib/python3.10/site-packages/variety/plugins/builtin/quotes/LocalFilesSource.py'
+INFO: 2023-01-27 15:03:58,733: load() 'Jumble found plugin class: <class 'LocalFilesSource.LocalFilesSource'>: {'name': 'Local text files', 'description': 'Displays quotes, defined in local text files.\nPut your own txt files in: ~/.config/variety/pluginconfig/quotes/.\nThe file format is:\n\nquote -- author\n.\nsecond quote -- another author\n.\netc...\n\nExample: http://rvelthuis.de/zips/quotes.txt', 'author': 'Peter Levi', 'version': '0.1'}'
+INFO: 2023-01-27 15:03:58,734: _walk_modules() 'Jumble loading module in UrbanDictionarySource from /usr/lib/python3.10/site-packages/variety/plugins/builtin/quotes/UrbanDictionarySource.py'
+INFO: 2023-01-27 15:03:58,734: load() 'Jumble found plugin class: <class 'UrbanDictionarySource.UrbanDictionarySource'>: {'name': 'Urban Dictionary', 'description': 'Displays definitions from Urban Dictionary', 'author': 'James Miller', 'version': '0.1'}'
+INFO: 2023-01-27 15:03:58,734: _walk_modules() 'Jumble loading module in QuotationsPageSource from /usr/lib/python3.10/site-packages/variety/plugins/builtin/quotes/QuotationsPageSource.py'
+INFO: 2023-01-27 15:03:58,735: load() 'Jumble found plugin class: <class 'QuotationsPageSource.QuotationsPageSource'>: {'name': 'TheQuotationsPage.com', 'description': 'Fetches quotes from TheQuotationsPage.com', 'author': 'Peter Levi', 'version': '0.1'}'
+INFO: 2023-01-27 15:03:58,735: _walk_modules() 'Jumble loading module in MediaRSSDownloader from /usr/lib/python3.10/site-packages/variety/plugins/builtin/downloaders/MediaRSSDownloader.py'
+INFO: 2023-01-27 15:03:58,736: _walk_modules() 'Jumble loading module in __init__ from /usr/lib/python3.10/site-packages/variety/plugins/builtin/downloaders/__init__.py'
+INFO: 2023-01-27 15:03:58,737: _walk_modules() 'Jumble loading module in APODDownloader from /usr/lib/python3.10/site-packages/variety/plugins/builtin/downloaders/APODDownloader.py'
+INFO: 2023-01-27 15:03:58,737: load() 'Jumble found plugin class: <class 'APODDownloader.APODDownloader'>: {'name': 'APODDownloader', 'description': 'NASA Astro Pic of the Day', 'author': 'Peter Levi', 'version': '0.1'}'
+INFO: 2023-01-27 15:03:58,738: _walk_modules() 'Jumble loading module in BingDownloader from /usr/lib/python3.10/site-packages/variety/plugins/builtin/downloaders/BingDownloader.py'
+INFO: 2023-01-27 15:03:58,738: load() 'Jumble found plugin class: <class 'BingDownloader.BingDownloader'>: {'name': 'BingDownloader', 'description': 'Bing Photo of the Day', 'author': 'Peter Levi', 'version': '0.1'}'
+INFO: 2023-01-27 15:03:58,739: _walk_modules() 'Jumble loading module in EarthviewDownloader from /usr/lib/python3.10/site-packages/variety/plugins/builtin/downloaders/EarthviewDownloader.py'
+INFO: 2023-01-27 15:03:58,739: load() 'Jumble found plugin class: <class 'EarthviewDownloader.EarthviewDownloader'>: {'name': 'EarthviewDownloader', 'description': 'Google Earth View Wallpapers', 'author': 'Peter Levi', 'version': '0.1'}'
+INFO: 2023-01-27 15:03:58,740: _walk_modules() 'Jumble loading module in ArtStationDownloader from /usr/lib/python3.10/site-packages/variety/plugins/builtin/downloaders/ArtStationDownloader.py'
+INFO: 2023-01-27 15:03:58,740: _walk_modules() 'Jumble loading module in MediaRSSSource from /usr/lib/python3.10/site-packages/variety/plugins/builtin/downloaders/MediaRSSSource.py'
+INFO: 2023-01-27 15:03:58,741: load() 'Jumble found plugin class: <class 'MediaRSSSource.MediaRSSSource'>: {'name': 'MediaRSSSource', 'description': 'Configurable source for fetching images from MediaRSS feeds', 'author': 'Peter Levi', 'version': '0.1'}'
+INFO: 2023-01-27 15:03:58,741: _walk_modules() 'Jumble loading module in ArtStationSource from /usr/lib/python3.10/site-packages/variety/plugins/builtin/downloaders/ArtStationSource.py'
+INFO: 2023-01-27 15:03:58,742: load() 'Jumble found plugin class: <class 'ArtStationSource.ArtStationSource'>: {'name': 'ArtStationSource', 'description': 'Configurable source for fetching images from ArtStation', 'author': 'Denis Gordeev', 'version': '0.1'}'
+INFO: 2023-01-27 15:03:58,742: _walk_modules() 'Jumble loading module in RedditSource from /usr/lib/python3.10/site-packages/variety/plugins/builtin/downloaders/RedditSource.py'
+INFO: 2023-01-27 15:03:58,743: load() 'Jumble found plugin class: <class 'RedditSource.RedditSource'>: {'name': 'RedditSource', 'description': 'Configurable source for fetching images from Reddit', 'author': 'Peter Levi', 'version': '0.1'}'
+INFO: 2023-01-27 15:03:58,743: _walk_modules() 'Jumble loading module in UnsplashConfigurableSource from /usr/lib/python3.10/site-packages/variety/plugins/builtin/downloaders/UnsplashConfigurableSource.py'
+INFO: 2023-01-27 15:03:58,745: load() 'Jumble found plugin class: <class 'UnsplashConfigurableSource.UnsplashConfigurableSource'>: {'name': 'UnsplashConfigurableSource', 'description': 'Configurable source for fetching photos from Unsplash.com', 'author': 'Peter Levi', 'version': '0.1'}'
+INFO: 2023-01-27 15:03:58,745: _walk_modules() 'Jumble loading module in RedditDownloader from /usr/lib/python3.10/site-packages/variety/plugins/builtin/downloaders/RedditDownloader.py'
+INFO: 2023-01-27 15:03:58,745: _walk_modules() 'Jumble loading module in WallhavenDownloader from /usr/lib/python3.10/site-packages/variety/plugins/builtin/downloaders/WallhavenDownloader.py'
+INFO: 2023-01-27 15:03:58,747: _walk_modules() 'Jumble loading module in WallhavenSource from /usr/lib/python3.10/site-packages/variety/plugins/builtin/downloaders/WallhavenSource.py'
+INFO: 2023-01-27 15:03:58,748: load() 'Jumble found plugin class: <class 'WallhavenSource.WallhavenSource'>: {'name': 'WallhavenSource', 'description': 'Configurable source for fetching images from Wallhaven.cc', 'author': 'Peter Levi', 'version': '0.1'}'
+INFO: 2023-01-27 15:03:58,748: _walk_modules() 'Jumble loading module in NationalGeographicDownloader from /usr/lib/python3.10/site-packages/variety/plugins/builtin/downloaders/NationalGeographicDownloader.py'
+INFO: 2023-01-27 15:03:58,749: load() 'Jumble found plugin class: <class 'NationalGeographicDownloader.NationalGeographicDownloader'>: {'name': 'NationalGeographicDownloader', 'description': "National Geographic's photo of the day", 'author': 'Eric Rösch', 'version': '0.1'}'
+INFO: 2023-01-27 15:03:58,749: _walk_modules() 'Jumble loading module in UnsplashDownloader from /usr/lib/python3.10/site-packages/variety/plugins/builtin/downloaders/UnsplashDownloader.py'
+INFO: 2023-01-27 15:03:58,749: load() 'Jumble found plugin class: <class 'UnsplashDownloader.UnsplashDownloader'>: {'name': 'UnsplashDownloader', 'description': 'High-resolution photos from Unsplash.com', 'author': 'Peter Levi', 'version': '0.1'}'
+INFO: 2023-01-27 15:03:58,749: _walk_modules() 'Jumble loading module in WallhavenLegacyDownloader from /usr/lib/python3.10/site-packages/variety/plugins/builtin/downloaders/WallhavenLegacyDownloader.py'
+INFO: 2023-01-27 15:03:58,750: _walk_modules() 'Jumble loading module in __init__ from /usr/lib/python3.10/site-packages/variety/plugins/builtin/display_modes/__init__.py'
+INFO: 2023-01-27 15:03:58,751: _walk_modules() 'Jumble loading module in ResizingDisplayModesPlugin from /usr/lib/python3.10/site-packages/variety/plugins/builtin/display_modes/ResizingDisplayModesPlugin.py'
+INFO: 2023-01-27 15:03:58,752: load() 'Jumble found plugin class: <class 'ResizingDisplayModesPlugin.ResizingDisplayModesPlugin'>: {'name': 'ResizingDisplayModesPlugin', 'description': 'Display modes that use image resizing within Variety', 'version': '1.0', 'author': 'Peter Levi'}'
+INFO: 2023-01-27 15:03:58,752: _walk_modules() 'Jumble loading module in LegacyDisplayModesPlugin from /usr/lib/python3.10/site-packages/variety/plugins/builtin/display_modes/LegacyDisplayModesPlugin.py'
+INFO: 2023-01-27 15:03:58,753: load() 'Jumble found plugin class: <class 'LegacyDisplayModesPlugin.LegacyDisplayModesPlugin'>: {'name': 'LegacyDisplayModesPlugin', 'description': 'Legacy display mode for compatibility with past Variety versions', 'version': '1.0', 'author': 'Peter Levi'}'
+INFO: 2023-01-27 15:03:58,753: _walk_modules() 'Jumble loading module in GnomeDisplayModesPlugin from /usr/lib/python3.10/site-packages/variety/plugins/builtin/display_modes/GnomeDisplayModesPlugin.py'
+INFO: 2023-01-27 15:03:58,754: load() 'Jumble found plugin class: <class 'GnomeDisplayModesPlugin.GnomeDisplayModesPlugin'>: {'name': 'GnomeDisplayModesPlugin', 'description': 'Display modes relying on the underlying desktop environment', 'version': '1.0', 'author': 'Peter Levi'}'
+INFO: 2023-01-27 15:03:58,770: log_options() 'Loaded options:'
+INFO: 2023-01-27 15:03:58,770: log_options() 'change_enabled = False'
+INFO: 2023-01-27 15:03:58,770: log_options() 'change_interval = 432000'
+INFO: 2023-01-27 15:03:58,770: log_options() 'change_on_start = False'
+INFO: 2023-01-27 15:03:58,770: log_options() 'clipboard_enabled = False'
+INFO: 2023-01-27 15:03:58,770: log_options() 'clipboard_hosts = ['wallhaven.cc', 'wallpapers.net', 'flickr.com', 'imgur.com', 'deviantart.com', 'interfacelift.com', 'vladstudio.com', 'imageshack.us', 'deviantart.net', 'imageshack.com']'
+INFO: 2023-01-27 15:03:58,770: log_options() 'clipboard_use_whitelist = True'
+INFO: 2023-01-27 15:03:58,770: log_options() 'clock_date_font = Serif 30'
+INFO: 2023-01-27 15:03:58,770: log_options() 'clock_enabled = False'
+INFO: 2023-01-27 15:03:58,770: log_options() 'clock_filter = -density 100 -font `fc-match -f '%{file[0]}' '%CLOCK_FONT_NAME'` -pointsize %CLOCK_FONT_SIZE -gravity SouthEast -fill '#00000044' -annotate 0x0+[%HOFFSET+58]+[%VOFFSET+108] '%H:%M' -fill white -annotate 0x0+[%HOFFSET+60]+[%VOFFSET+110] '%H:%M' -font `fc-match -f '%{file[0]}' '%DATE_FONT_NAME'` -pointsize %DATE_FONT_SIZE -fill '#00000044' -annotate 0x0+[%HOFFSET+58]+[%VOFFSET+58] '%A, %B %d' -fill white -annotate 0x0+[%HOFFSET+60]+[%VOFFSET+60] '%A, %B %d''
+INFO: 2023-01-27 15:03:58,770: log_options() 'clock_font = Serif 70'
+INFO: 2023-01-27 15:03:58,771: log_options() 'configfile = /home/jy/.config/variety/variety.conf'
+INFO: 2023-01-27 15:03:58,771: log_options() 'copyto_enabled = False'
+INFO: 2023-01-27 15:03:58,771: log_options() 'copyto_folder = Default'
+INFO: 2023-01-27 15:03:58,771: log_options() 'desired_color = [160, 160, 160]'
+INFO: 2023-01-27 15:03:58,771: log_options() 'desired_color_enabled = False'
+INFO: 2023-01-27 15:03:58,771: log_options() 'download_folder = /home/jy/.config/variety/Downloaded'
+INFO: 2023-01-27 15:03:58,771: log_options() 'download_preference_ratio = 0.9'
+INFO: 2023-01-27 15:03:58,771: log_options() 'favorites_folder = /home/jy/.config/variety/Favorites'
+INFO: 2023-01-27 15:03:58,771: log_options() 'favorites_operations = [['Downloaded', 'Copy'], ['Fetched', 'Move'], ['Others', 'Copy']]'
+INFO: 2023-01-27 15:03:58,771: log_options() 'fetched_folder = /home/jy/.config/variety/Fetched'
+INFO: 2023-01-27 15:03:58,771: log_options() 'filters = [[True, 'Keep original', ''], [False, 'Grayscale', '-type Grayscale'], [False, 'Heavy blur', '-scale 20% -blur 0x10 -resize 500%'], [False, 'Soft blur', '-scale 20% -blur 0x2 -resize 500%'], [False, 'Oil painting', '-paint 8'], [False, 'Pointilism', '-spread 10 -noise 3'], [False, 'Pixellate', '-scale 3% -scale 3333%']]'
+INFO: 2023-01-27 15:03:58,771: log_options() 'get_wallpaper_script = /home/jy/.config/variety/scripts/get_wallpaper'
+INFO: 2023-01-27 15:03:58,771: log_options() 'icon = Light'
+INFO: 2023-01-27 15:03:58,771: log_options() 'internet_enabled = True'
+INFO: 2023-01-27 15:03:58,771: log_options() 'lightness_enabled = False'
+INFO: 2023-01-27 15:03:58,771: log_options() 'lightness_mode = 0'
+INFO: 2023-01-27 15:03:58,771: log_options() 'min_rating = 4'
+INFO: 2023-01-27 15:03:58,771: log_options() 'min_rating_enabled = False'
+INFO: 2023-01-27 15:03:58,771: log_options() 'min_size = 80'
+INFO: 2023-01-27 15:03:58,771: log_options() 'min_size_enabled = False'
+INFO: 2023-01-27 15:03:58,771: log_options() 'quota_enabled = True'
+INFO: 2023-01-27 15:03:58,771: log_options() 'quota_size = 1000'
+INFO: 2023-01-27 15:03:58,771: log_options() 'quotes_authors = '
+INFO: 2023-01-27 15:03:58,771: log_options() 'quotes_bg_color = [80, 80, 80]'
+INFO: 2023-01-27 15:03:58,771: log_options() 'quotes_bg_opacity = 55'
+INFO: 2023-01-27 15:03:58,771: log_options() 'quotes_change_enabled = False'
+INFO: 2023-01-27 15:03:58,771: log_options() 'quotes_change_interval = 300'
+INFO: 2023-01-27 15:03:58,771: log_options() 'quotes_disabled_sources = ['Urban Dictionary']'
+INFO: 2023-01-27 15:03:58,771: log_options() 'quotes_enabled = False'
+INFO: 2023-01-27 15:03:58,771: log_options() 'quotes_favorites_file = /home/jy/.config/variety/favorite_quotes.txt'
+INFO: 2023-01-27 15:03:58,771: log_options() 'quotes_font = Serif 30'
+INFO: 2023-01-27 15:03:58,771: log_options() 'quotes_hpos = 100'
+INFO: 2023-01-27 15:03:58,771: log_options() 'quotes_max_length = 250'
+INFO: 2023-01-27 15:03:58,771: log_options() 'quotes_tags = '
+INFO: 2023-01-27 15:03:58,771: log_options() 'quotes_text_color = [255, 255, 255]'
+INFO: 2023-01-27 15:03:58,771: log_options() 'quotes_text_shadow = False'
+INFO: 2023-01-27 15:03:58,771: log_options() 'quotes_vpos = 40'
+INFO: 2023-01-27 15:03:58,771: log_options() 'quotes_width = 70'
+INFO: 2023-01-27 15:03:58,772: log_options() 'safe_mode = False'
+INFO: 2023-01-27 15:03:58,772: log_options() 'set_wallpaper_script = /home/jy/.config/variety/scripts/set_wallpaper'
+INFO: 2023-01-27 15:03:58,772: log_options() 'slideshow_custom_enabled = False'
+INFO: 2023-01-27 15:03:58,772: log_options() 'slideshow_custom_folder = /home/jy/图片'
+INFO: 2023-01-27 15:03:58,772: log_options() 'slideshow_downloads_enabled = False'
+INFO: 2023-01-27 15:03:58,772: log_options() 'slideshow_fade = 0.4'
+INFO: 2023-01-27 15:03:58,772: log_options() 'slideshow_favorites_enabled = True'
+INFO: 2023-01-27 15:03:58,772: log_options() 'slideshow_mode = Fullscreen'
+INFO: 2023-01-27 15:03:58,772: log_options() 'slideshow_monitor = All'
+INFO: 2023-01-27 15:03:58,772: log_options() 'slideshow_pan = 0.05'
+INFO: 2023-01-27 15:03:58,772: log_options() 'slideshow_seconds = 6.0'
+INFO: 2023-01-27 15:03:58,772: log_options() 'slideshow_sort_order = Random'
+INFO: 2023-01-27 15:03:58,772: log_options() 'slideshow_sources_enabled = True'
+INFO: 2023-01-27 15:03:58,772: log_options() 'slideshow_zoom = 0.2'
+INFO: 2023-01-27 15:03:58,772: log_options() 'smart_enabled = False'
+INFO: 2023-01-27 15:03:58,772: log_options() 'smart_notice_shown = False'
+INFO: 2023-01-27 15:03:58,772: log_options() 'smart_register_shown = False'
+INFO: 2023-01-27 15:03:58,772: log_options() 'sources = [[True, 'favorites', 'The Favorites folder'], [False, 'fetched', 'The Fetched folder'], [False, 'folder', '/usr/share/backgrounds'], [False, 'flickr', 'user:www.flickr.com/photos/peter-levi/;user_id:93647178@N00;'], [False, 'apod', "NASA's Astronomy Picture of the Day"], [False, 'bing', 'Bing Photo of the Day'], [False, 'earthview', 'Google Earth View Wallpapers'], [False, 'natgeo', "National Geographic's photo of the day"], [False, 'unsplash', 'High-resolution photos from Unsplash.com']]'
+INFO: 2023-01-27 15:03:58,772: log_options() 'stats_enabled = True'
+INFO: 2023-01-27 15:03:58,772: log_options() 'stats_notice_shown = False'
+INFO: 2023-01-27 15:03:58,772: log_options() 'sync_enabled = True'
+INFO: 2023-01-27 15:03:58,772: log_options() 'use_landscape_enabled = True'
+INFO: 2023-01-27 15:03:58,772: log_options() 'wallhaven_api_key = '
+INFO: 2023-01-27 15:03:58,772: log_options() 'wallpaper_auto_rotate = True'
+INFO: 2023-01-27 15:03:58,772: log_options() 'wallpaper_display_mode = os'
+INFO: 2023-01-27 15:03:58,772: reload_config() 'No need to clear prepared queue'
+INFO: 2023-01-27 15:03:58,772: update_indicator() 'Setting file info to: /home/jy/.config/variety/Favorites/lake.jpg'
+INFO: 2023-01-27 15:03:58,775: load_banned() 'Missing or invalid banned URLs list, no URLs will be banned'
+INFO: 2023-01-27 15:03:58,776: load_last_change_time() 'Change interval >= 6 hours, using persisted last_change_time 1674693742.5543504'
+INFO: 2023-01-27 15:03:58,776: load_last_change_time() 'Still to wait: 322703 seconds'
+INFO: 2023-01-27 15:03:58,776: update_indicator() 'Setting file info to: /home/jy/.config/variety/Favorites/lake.jpg'
+INFO: 2023-01-27 15:03:58,776: regular_change_thread() 'regular_change thread running'
+INFO: 2023-01-27 15:03:58,776: regular_change_thread() 'regular_change: waiting till user resumes'
+INFO: 2023-01-27 15:03:58,776: prepare_thread() 'Prepare thread running'
+INFO: 2023-01-27 15:03:58,776: prepare_thread() 'Prepared buffer contains 0 images'
+INFO: 2023-01-27 15:03:58,777: prepare_thread() 'Preparing some images'
+INFO: 2023-01-27 15:03:58,823: update_indicator_icon() 'Creating indicator'
+WARNING: 2023-01-27 15:03:58,833: create_menu() 'Variety Slideshow is not installed. This is an optional extension adding pan-and-zoom slideshows to Variety: see https://github.com/peterlevi/variety-slideshow for details'
+INFO: 2023-01-27 15:03:58,834: create_indicator() 'indicator backend: AppIndicator3'
+INFO: 2023-01-27 15:03:58,856: set_from_theme_icon() 'Showing indicator icon variety-indicator from GTK theme'
+INFO: 2023-01-27 15:03:58,876: do_set_wp() 'Calling do_set_wp with /home/jy/.config/variety/Favorites/lake.jpg, time: 1674803038.8761404'
+INFO: 2023-01-27 15:03:58,877: apply_auto_rotate() 'ImageMagick auto-rotate cmd: convert /home/jy/.config/variety/Favorites/lake.jpg -auto-orient /home/jy/.config/variety/wallpaper/wallpaper-auto-rotated-b0d0e47b0f35c435c85c17959887d8c6.jpg'
+INFO: 2023-01-27 15:03:58,982: prepare_thread() 'After search prepared buffer contains 95 images'
+INFO: 2023-01-27 15:03:59,180: update_indicator() 'Setting file info to: /home/jy/.config/variety/Favorites/lake.jpg'
+INFO: 2023-01-27 15:03:59,180: list_files() 'More than 1 files in the folders, stop listing'
+INFO: 2023-01-27 15:04:00,144: reload() 'Reloading preferences dialog'
+INFO: 2023-01-27 15:04:00,983: trigger_download() 'Triggering download thread to check if download needed and possible'
+INFO: 2023-01-27 15:04:18,796: server_options_thread() 'Fetching server options from http://tiny.cc/variety-options-063'
+ERROR: 2023-01-27 15:04:23,904: server_options_thread() 'Could not fetch Variety serverside options'
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/urllib3/connection.py", line 174, in _new_conn
+    conn = connection.create_connection(
+  File "/usr/lib/python3.10/site-packages/urllib3/util/connection.py", line 95, in create_connection
+    raise err
+  File "/usr/lib/python3.10/site-packages/urllib3/util/connection.py", line 85, in create_connection
+    sock.connect(sa)
+OSError: [Errno 101] 网络不可达
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/urllib3/connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "/usr/lib/python3.10/site-packages/urllib3/connectionpool.py", line 398, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/usr/lib/python3.10/site-packages/urllib3/connection.py", line 239, in request
+    super(HTTPConnection, self).request(method, url, body=body, headers=headers)
+  File "/usr/lib/python3.10/http/client.py", line 1282, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/lib/python3.10/http/client.py", line 1328, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.10/http/client.py", line 1277, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.10/http/client.py", line 1037, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.10/http/client.py", line 975, in send
+    self.connect()
+  File "/usr/lib/python3.10/site-packages/urllib3/connection.py", line 205, in connect
+    conn = self._new_conn()
+  File "/usr/lib/python3.10/site-packages/urllib3/connection.py", line 186, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x7fad1c435990>: Failed to establish a new connection: [Errno 101] 网络不可达
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/requests/adapters.py", line 489, in send
+    resp = conn.urlopen(
+  File "/usr/lib/python3.10/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    retries = retries.increment(
+  File "/usr/lib/python3.10/site-packages/urllib3/util/retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='tiny.cc', port=80): Max retries exceeded with url: /variety-options-063 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fad1c435990>: Failed to establish a new connection: [Errno 101] 网络不可达'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/variety/VarietyWindow.py", line 1084, in server_options_thread
+    self.server_options = Util.fetch_json(VarietyWindow.SERVERSIDE_OPTIONS_URL)
+  File "/usr/lib/python3.10/site-packages/variety/Util.py", line 684, in fetch_json
+    return Util.request(url, data, **request_kwargs).json()
+  File "/usr/lib/python3.10/site-packages/variety/Util.py", line 654, in request
+    r = requests.request(
+  File "/usr/lib/python3.10/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/usr/lib/python3.10/site-packages/requests/sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/lib/python3.10/site-packages/requests/sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/lib/python3.10/site-packages/requests/adapters.py", line 565, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='tiny.cc', port=80): Max retries exceeded with url: /variety-options-063 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fad1c435990>: Failed to establish a new connection: [Errno 101] 网络不可达'))
+INFO: 2023-01-27 15:04:40,495: process_command() 'Received command: ['--preferences']'
+INFO: 2023-01-27 15:04:40,498: reload() 'Reloading preferences dialog'
+INFO: 2023-01-27 15:04:46,642: set_wallpaper() 'Calling set_wallpaper with /home/jy/.config/variety/Favorites/win-11.png'
+INFO: 2023-01-27 15:04:46,643: do_set_wp() 'Calling do_set_wp with /home/jy/.config/variety/Favorites/win-11.png, time: 1674803086.6431284'
+INFO: 2023-01-27 15:04:46,643: apply_auto_rotate() 'ImageMagick auto-rotate cmd: convert /home/jy/.config/variety/Favorites/win-11.png -auto-orient /home/jy/.config/variety/wallpaper/wallpaper-auto-rotated-2927d117321fdd3acb244fe8178c9318.jpg'
+INFO: 2023-01-27 15:04:46,748: update_indicator() 'Setting file info to: /home/jy/.config/variety/Favorites/win-11.png'
+INFO: 2023-01-27 15:04:46,749: list_files() 'More than 1 files in the folders, stop listing'
+INFO: 2023-01-27 15:04:47,787: set_wallpaper() 'Calling set_wallpaper with /home/jy/.config/variety/Favorites/blue-black-girl.png'
+INFO: 2023-01-27 15:04:47,788: do_set_wp() 'Calling do_set_wp with /home/jy/.config/variety/Favorites/blue-black-girl.png, time: 1674803087.7880683'
+INFO: 2023-01-27 15:04:47,788: apply_auto_rotate() 'ImageMagick auto-rotate cmd: convert /home/jy/.config/variety/Favorites/blue-black-girl.png -auto-orient /home/jy/.config/variety/wallpaper/wallpaper-auto-rotated-981126427cf61ded5a96c5007c76e3a9.jpg'
+INFO: 2023-01-27 15:04:47,832: update_indicator() 'Setting file info to: /home/jy/.config/variety/Favorites/blue-black-girl.png'
+INFO: 2023-01-27 15:04:47,833: list_files() 'More than 1 files in the folders, stop listing'
+INFO: 2023-01-27 15:04:48,185: set_wallpaper() 'Calling set_wallpaper with /home/jy/.config/variety/Favorites/river.png'
+INFO: 2023-01-27 15:04:48,788: do_set_wp() 'Calling do_set_wp with /home/jy/.config/variety/Favorites/river.png, time: 1674803088.7883358'
+INFO: 2023-01-27 15:04:48,788: apply_auto_rotate() 'ImageMagick auto-rotate cmd: convert /home/jy/.config/variety/Favorites/river.png -auto-orient /home/jy/.config/variety/wallpaper/wallpaper-auto-rotated-5a8f8d3a9db46d69f9dc4e6dc535cfd7.jpg'
+INFO: 2023-01-27 15:04:48,928: update_indicator() 'Setting file info to: /home/jy/.config/variety/Favorites/river.png'
+INFO: 2023-01-27 15:04:48,933: list_files() 'More than 1 files in the folders, stop listing'
+INFO: 2023-01-27 15:04:52,757: set_wallpaper() 'Calling set_wallpaper with /home/jy/.config/variety/Favorites/rad_samurai.jpg'
+INFO: 2023-01-27 15:04:52,757: do_set_wp() 'Calling do_set_wp with /home/jy/.config/variety/Favorites/rad_samurai.jpg, time: 1674803092.757847'
+INFO: 2023-01-27 15:04:52,758: apply_auto_rotate() 'ImageMagick auto-rotate cmd: convert /home/jy/.config/variety/Favorites/rad_samurai.jpg -auto-orient /home/jy/.config/variety/wallpaper/wallpaper-auto-rotated-8844b148673915230602eaed64f0b01f.jpg'
+INFO: 2023-01-27 15:04:52,868: update_indicator() 'Setting file info to: /home/jy/.config/variety/Favorites/rad_samurai.jpg'
+INFO: 2023-01-27 15:04:52,869: list_files() 'More than 1 files in the folders, stop listing'
+INFO: 2023-01-27 15:04:53,936: server_options_thread() 'Fetching server options from http://tiny.cc/variety-options-063'
+INFO: 2023-01-27 15:04:54,218: update_indicator() 'Setting file info to: /home/jy/.config/variety/Favorites/rad_samurai.jpg'
+INFO: 2023-01-27 15:04:54,220: list_files() 'More than 1 files in the folders, stop listing'
+INFO: 2023-01-27 15:04:54,656: trigger_download() 'Triggering download thread to check if download needed and possible'
+ERROR: 2023-01-27 15:04:58,947: server_options_thread() 'Could not fetch Variety serverside options'
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/urllib3/connection.py", line 174, in _new_conn
+    conn = connection.create_connection(
+  File "/usr/lib/python3.10/site-packages/urllib3/util/connection.py", line 95, in create_connection
+    raise err
+  File "/usr/lib/python3.10/site-packages/urllib3/util/connection.py", line 85, in create_connection
+    sock.connect(sa)
+OSError: [Errno 101] 网络不可达
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/urllib3/connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "/usr/lib/python3.10/site-packages/urllib3/connectionpool.py", line 398, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/usr/lib/python3.10/site-packages/urllib3/connection.py", line 239, in request
+    super(HTTPConnection, self).request(method, url, body=body, headers=headers)
+  File "/usr/lib/python3.10/http/client.py", line 1282, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/lib/python3.10/http/client.py", line 1328, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.10/http/client.py", line 1277, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.10/http/client.py", line 1037, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.10/http/client.py", line 975, in send
+    self.connect()
+  File "/usr/lib/python3.10/site-packages/urllib3/connection.py", line 205, in connect
+    conn = self._new_conn()
+  File "/usr/lib/python3.10/site-packages/urllib3/connection.py", line 186, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x7fad17cf8ac0>: Failed to establish a new connection: [Errno 101] 网络不可达
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/requests/adapters.py", line 489, in send
+    resp = conn.urlopen(
+  File "/usr/lib/python3.10/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    retries = retries.increment(
+  File "/usr/lib/python3.10/site-packages/urllib3/util/retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='tiny.cc', port=80): Max retries exceeded with url: /variety-options-063 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fad17cf8ac0>: Failed to establish a new connection: [Errno 101] 网络不可达'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/variety/VarietyWindow.py", line 1084, in server_options_thread
+    self.server_options = Util.fetch_json(VarietyWindow.SERVERSIDE_OPTIONS_URL)
+  File "/usr/lib/python3.10/site-packages/variety/Util.py", line 684, in fetch_json
+    return Util.request(url, data, **request_kwargs).json()
+  File "/usr/lib/python3.10/site-packages/variety/Util.py", line 654, in request
+    r = requests.request(
+  File "/usr/lib/python3.10/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/usr/lib/python3.10/site-packages/requests/sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/lib/python3.10/site-packages/requests/sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/lib/python3.10/site-packages/requests/adapters.py", line 565, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='tiny.cc', port=80): Max retries exceeded with url: /variety-options-063 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fad17cf8ac0>: Failed to establish a new connection: [Errno 101] 网络不可达'))
+INFO: 2023-01-27 15:05:28,957: server_options_thread() 'Fetching server options from http://tiny.cc/variety-options-063'
+ERROR: 2023-01-27 15:05:33,967: server_options_thread() 'Could not fetch Variety serverside options'
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/urllib3/connection.py", line 174, in _new_conn
+    conn = connection.create_connection(
+  File "/usr/lib/python3.10/site-packages/urllib3/util/connection.py", line 95, in create_connection
+    raise err
+  File "/usr/lib/python3.10/site-packages/urllib3/util/connection.py", line 85, in create_connection
+    sock.connect(sa)
+OSError: [Errno 101] 网络不可达
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/urllib3/connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "/usr/lib/python3.10/site-packages/urllib3/connectionpool.py", line 398, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/usr/lib/python3.10/site-packages/urllib3/connection.py", line 239, in request
+    super(HTTPConnection, self).request(method, url, body=body, headers=headers)
+  File "/usr/lib/python3.10/http/client.py", line 1282, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/lib/python3.10/http/client.py", line 1328, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.10/http/client.py", line 1277, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.10/http/client.py", line 1037, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.10/http/client.py", line 975, in send
+    self.connect()
+  File "/usr/lib/python3.10/site-packages/urllib3/connection.py", line 205, in connect
+    conn = self._new_conn()
+  File "/usr/lib/python3.10/site-packages/urllib3/connection.py", line 186, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x7fad17ceafb0>: Failed to establish a new connection: [Errno 101] 网络不可达
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/requests/adapters.py", line 489, in send
+    resp = conn.urlopen(
+  File "/usr/lib/python3.10/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    retries = retries.increment(
+  File "/usr/lib/python3.10/site-packages/urllib3/util/retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='tiny.cc', port=80): Max retries exceeded with url: /variety-options-063 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fad17ceafb0>: Failed to establish a new connection: [Errno 101] 网络不可达'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/variety/VarietyWindow.py", line 1084, in server_options_thread
+    self.server_options = Util.fetch_json(VarietyWindow.SERVERSIDE_OPTIONS_URL)
+  File "/usr/lib/python3.10/site-packages/variety/Util.py", line 684, in fetch_json
+    return Util.request(url, data, **request_kwargs).json()
+  File "/usr/lib/python3.10/site-packages/variety/Util.py", line 654, in request
+    r = requests.request(
+  File "/usr/lib/python3.10/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/usr/lib/python3.10/site-packages/requests/sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/lib/python3.10/site-packages/requests/sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/lib/python3.10/site-packages/requests/adapters.py", line 565, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='tiny.cc', port=80): Max retries exceeded with url: /variety-options-063 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fad17ceafb0>: Failed to establish a new connection: [Errno 101] 网络不可达'))
+INFO: 2023-01-27 15:06:03,996: server_options_thread() 'Fetching server options from http://tiny.cc/variety-options-063'
+ERROR: 2023-01-27 15:06:09,117: server_options_thread() 'Could not fetch Variety serverside options'
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/urllib3/connection.py", line 174, in _new_conn
+    conn = connection.create_connection(
+  File "/usr/lib/python3.10/site-packages/urllib3/util/connection.py", line 95, in create_connection
+    raise err
+  File "/usr/lib/python3.10/site-packages/urllib3/util/connection.py", line 85, in create_connection
+    sock.connect(sa)
+OSError: [Errno 101] 网络不可达
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/urllib3/connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "/usr/lib/python3.10/site-packages/urllib3/connectionpool.py", line 398, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/usr/lib/python3.10/site-packages/urllib3/connection.py", line 239, in request
+    super(HTTPConnection, self).request(method, url, body=body, headers=headers)
+  File "/usr/lib/python3.10/http/client.py", line 1282, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/lib/python3.10/http/client.py", line 1328, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.10/http/client.py", line 1277, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.10/http/client.py", line 1037, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.10/http/client.py", line 975, in send
+    self.connect()
+  File "/usr/lib/python3.10/site-packages/urllib3/connection.py", line 205, in connect
+    conn = self._new_conn()
+  File "/usr/lib/python3.10/site-packages/urllib3/connection.py", line 186, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x7fad17cea980>: Failed to establish a new connection: [Errno 101] 网络不可达
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/requests/adapters.py", line 489, in send
+    resp = conn.urlopen(
+  File "/usr/lib/python3.10/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    retries = retries.increment(
+  File "/usr/lib/python3.10/site-packages/urllib3/util/retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='tiny.cc', port=80): Max retries exceeded with url: /variety-options-063 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fad17cea980>: Failed to establish a new connection: [Errno 101] 网络不可达'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/variety/VarietyWindow.py", line 1084, in server_options_thread
+    self.server_options = Util.fetch_json(VarietyWindow.SERVERSIDE_OPTIONS_URL)
+  File "/usr/lib/python3.10/site-packages/variety/Util.py", line 684, in fetch_json
+    return Util.request(url, data, **request_kwargs).json()
+  File "/usr/lib/python3.10/site-packages/variety/Util.py", line 654, in request
+    r = requests.request(
+  File "/usr/lib/python3.10/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/usr/lib/python3.10/site-packages/requests/sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/lib/python3.10/site-packages/requests/sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/lib/python3.10/site-packages/requests/adapters.py", line 565, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='tiny.cc', port=80): Max retries exceeded with url: /variety-options-063 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fad17cea980>: Failed to establish a new connection: [Errno 101] 网络不可达'))
+INFO: 2023-01-27 15:06:39,146: server_options_thread() 'Fetching server options from http://tiny.cc/variety-options-063'
+ERROR: 2023-01-27 15:06:44,237: server_options_thread() 'Could not fetch Variety serverside options'
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/urllib3/connection.py", line 174, in _new_conn
+    conn = connection.create_connection(
+  File "/usr/lib/python3.10/site-packages/urllib3/util/connection.py", line 95, in create_connection
+    raise err
+  File "/usr/lib/python3.10/site-packages/urllib3/util/connection.py", line 85, in create_connection
+    sock.connect(sa)
+OSError: [Errno 101] 网络不可达
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/urllib3/connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "/usr/lib/python3.10/site-packages/urllib3/connectionpool.py", line 398, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/usr/lib/python3.10/site-packages/urllib3/connection.py", line 239, in request
+    super(HTTPConnection, self).request(method, url, body=body, headers=headers)
+  File "/usr/lib/python3.10/http/client.py", line 1282, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/lib/python3.10/http/client.py", line 1328, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.10/http/client.py", line 1277, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.10/http/client.py", line 1037, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.10/http/client.py", line 975, in send
+    self.connect()
+  File "/usr/lib/python3.10/site-packages/urllib3/connection.py", line 205, in connect
+    conn = self._new_conn()
+  File "/usr/lib/python3.10/site-packages/urllib3/connection.py", line 186, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x7fad17cebd90>: Failed to establish a new connection: [Errno 101] 网络不可达
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/requests/adapters.py", line 489, in send
+    resp = conn.urlopen(
+  File "/usr/lib/python3.10/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    retries = retries.increment(
+  File "/usr/lib/python3.10/site-packages/urllib3/util/retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='tiny.cc', port=80): Max retries exceeded with url: /variety-options-063 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fad17cebd90>: Failed to establish a new connection: [Errno 101] 网络不可达'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/variety/VarietyWindow.py", line 1084, in server_options_thread
+    self.server_options = Util.fetch_json(VarietyWindow.SERVERSIDE_OPTIONS_URL)
+  File "/usr/lib/python3.10/site-packages/variety/Util.py", line 684, in fetch_json
+    return Util.request(url, data, **request_kwargs).json()
+  File "/usr/lib/python3.10/site-packages/variety/Util.py", line 654, in request
+    r = requests.request(
+  File "/usr/lib/python3.10/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/usr/lib/python3.10/site-packages/requests/sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/lib/python3.10/site-packages/requests/sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/lib/python3.10/site-packages/requests/adapters.py", line 565, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='tiny.cc', port=80): Max retries exceeded with url: /variety-options-063 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fad17cebd90>: Failed to establish a new connection: [Errno 101] 网络不可达'))

@@ -1,0 +1,15 @@
+Dec 18 12:45 : config: option 'buffer_time' on line 219 was not recognized
+Dec 18 12:45 : config: option 'buffer_time' on line 219 was not recognized
+Dec 18 12:58 : update: added /兰亭序 (2022央视夏日歌会“这young的夏天”现场)-周深.320.mp3
+Dec 18 12:58 : update: added /兰亭序 (2022央视夏日歌会“这young的夏天”现场)-周深.320.mp3
+Dec 18 12:58 : exception: Failed to save database: Failed to commit /home/jy/.config/mpd/mpd.db: File exists
+Dec 18 13:46 : update: added /ltx.mp3
+Dec 18 13:46 : update: added /ltx.mp3
+Dec 18 14:08 : config: option 'buffer_time' on line 229 was not recognized
+Dec 18 14:08 : config: option 'buffer_time' on line 229 was not recognized
+Dec 18 14:12 : config: option 'buffer_time' on line 229 was not recognized
+Dec 18 14:58 : update: removing ltx.mp3
+Dec 18 14:58 : update: removing ltx.mp3
+Dec 18 14:58 : exception: Failed to save database: Failed to commit /home/jy/.config/mpd/mpd.db: File exists
+Dec 18 14:58 : update: added /ltx.mp3
+Dec 18 14:58 : update: added /ltx.mp3

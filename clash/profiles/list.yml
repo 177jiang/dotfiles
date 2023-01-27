@@ -1,0 +1,42 @@
+files:
+  - url: ""
+    time: 1670815291176.yml
+    name: config.yaml
+    selected: []
+  - time: 1670815408772.yml
+    name: ClashR_1670815407.yaml
+    url: https://dingyue1.club/link/TisGotcADQHW04lB?clash=2
+    selected:
+      - name: GLOBAL
+        now: 🇭🇰 v1丨香港丨沪港中继丨3丨3倍
+      - name: 🔰国外流量
+        now: 🇭🇰 v1丨香港丨沪港中继丨3丨3倍
+      - name: ⚓️其他流量
+        now: 🔰国外流量
+      - name: ✈️Telegram
+        now: 🇹🇼 v1丨台湾丨原生丨深台中转
+      - name: 🎬Youtube
+        now: 🇹🇼 v1丨台湾丨原生丨深台中转
+      - name: 🎬Netflix
+        now: 🇹🇼 v1丨台湾丨原生丨深台中转
+      - name: 🎬哔哩哔哩
+        now: 🇹🇼 v1丨台湾丨原生丨深台中转
+      - name: 🎬国外媒体
+        now: 🇹🇼 v1丨台湾丨原生丨深台中转
+      - name: 🍎苹果服务
+        now: 🚀直接连接
+      - name: 🚀直接连接
+        now: DIRECT
+    interval: 0
+    subInfo:
+      upload: 139100208
+      download: 2155165458
+      total: 354334801920
+      expire: 1678500280
+    homeWeb: ""
+    mode: global
+  - url: ""
+    time: 1670816044672.yml
+    name: TisGotcADQHW04lB?clash=2.1
+    selected: []
+index: 1
